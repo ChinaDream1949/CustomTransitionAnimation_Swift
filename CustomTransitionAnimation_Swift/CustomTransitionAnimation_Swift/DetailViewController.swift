@@ -20,6 +20,8 @@ class DetailViewController: UIViewController {
         iamgeView.isUserInteractionEnabled = true
     }
     @objc func dismissVC(tap:UITapGestureRecognizer){
-        dismiss(animated: true, completion: nil)
+        if tap.state == .ended {
+            dismiss(animated: true, completion: nil)
+        }
     }
 }

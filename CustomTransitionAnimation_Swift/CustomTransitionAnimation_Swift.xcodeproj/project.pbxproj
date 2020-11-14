@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D048C2AE256039E600A35F55 /* PaninterActionator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D048C2AD256039E600A35F55 /* PaninterActionator.swift */; };
 		D05BE3F1255EAD11001B67F6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BE3F0255EAD11001B67F6 /* AppDelegate.swift */; };
 		D05BE3F3255EAD11001B67F6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D05BE3F2255EAD11001B67F6 /* SceneDelegate.swift */; };
 		D05BE3F8255EAD11001B67F6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D05BE3F6255EAD11001B67F6 /* Main.storyboard */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D048C2AD256039E600A35F55 /* PaninterActionator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaninterActionator.swift; sourceTree = "<group>"; };
 		D05BE3ED255EAD11001B67F6 /* CustomTransitionAnimation_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitionAnimation_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D05BE3F0255EAD11001B67F6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D05BE3F2255EAD11001B67F6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			children = (
 				D09C3400255EB6E10094226D /* PresentAnimator.swift */,
 				D09C341A255ECAA60094226D /* DismissAnimator.swift */,
+				D048C2AD256039E600A35F55 /* PaninterActionator.swift */,
 			);
 			path = AnimationControllers;
 			sourceTree = "<group>";
@@ -276,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D05BE3F1255EAD11001B67F6 /* AppDelegate.swift in Sources */,
+				D048C2AE256039E600A35F55 /* PaninterActionator.swift in Sources */,
 				D09C341B255ECAA60094226D /* DismissAnimator.swift in Sources */,
 				D09C3401255EB6E10094226D /* PresentAnimator.swift in Sources */,
 				D05BE3F3255EAD11001B67F6 /* SceneDelegate.swift in Sources */,

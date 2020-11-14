@@ -33,7 +33,7 @@ class PresentAnimator: NSObject,UIViewControllerAnimatedTransitioning {
         } completion: { _ in
             fromView.transform = .identity
             toView.transform = .identity
-            transitionContext.completeTransition(true)
+            transitionContext.completeTransition(!transitionContext.transitionWasCancelled)
         }
     }
     
